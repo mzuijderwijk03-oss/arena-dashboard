@@ -82,7 +82,7 @@ def image_to_base64(path):
     with open(path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode()
 
-logo_path = "/Users/martijnzuijderwijk/Documents/streamlit/Johan_Cruijff_ArenA_logo.png"
+logo_path = "Johan_Cruijff_ArenA_logo.png"
 logo_base64 = image_to_base64(logo_path)
 
 st.markdown(
