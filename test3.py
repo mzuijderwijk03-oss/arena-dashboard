@@ -28,7 +28,7 @@ access_control, tickets = load_data()
 
 with st.sidebar:
     st.title("Menu")
-    st.image("/Users/martijnzuijderwijk/Documents/streamlit/Johan_Cruijff_ArenA_logo.png", width=180)
+    st.image("Johan_Cruijff_ArenA_logo.png", width=180)
     
     option = st.selectbox(
         'Kies een datum:',
